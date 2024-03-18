@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  display: grid;
+  place-items: center;
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.container {
+  background-color: hsl(0, 0%, 12%);
+  max-width: 400px;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  margin: 2rem;
+  text-align: center;
+}
+
+.container img {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin-bottom: 0.5rem;
+}
+
+.container h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.7rem;
+}
+
+.container h2 {
+  color: hsl(75, 94%, 57%);
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.container p {
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+  margin-bottom: 1rem;
+}
+
+.container ul li:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.container ul li a {
+  padding: 0.7rem;
+  display: block;
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 0.5rem;
+  font-weight: 600;
+  color: hsl(0, 0%, 100%);
+}
+
+.container ul li a:hover {
+  background: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: -1.5rem;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 475px) {
+  .container {
+    width: 300px;
+  }
+}
